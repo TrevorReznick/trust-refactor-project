@@ -1,5 +1,6 @@
 <template>
-    <div>
-        <NuxtWelcome />
-    </div>
+  <WelcomeComp />
 </template>
+
+<style scoped>
+</style>
