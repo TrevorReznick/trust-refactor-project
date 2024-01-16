@@ -1,3 +1,8 @@
+<script setup>
+import { useHomeStore } from '~/store/main'
+
+const homeStore = useHomeStore()
+/*
 <script>
 import { defineComponent } from 'vue';
 import { useHomeStore } from '~/store/main';
@@ -11,8 +16,9 @@ export default defineComponent({
   }
 })
 </script>
+*/
+</script>
 
-  
 
 <template>
   <div class="flex items-center justify-center min-h-screen bg-gray-100">
@@ -27,4 +33,3 @@ export default defineComponent({
   
 <style scoped>
 </style>
-  ~/store/main
