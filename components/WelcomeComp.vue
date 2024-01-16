@@ -2,21 +2,6 @@
 import { useHomeStore } from '~/store/main'
 
 const homeStore = useHomeStore()
-/*
-<script>
-import { defineComponent } from 'vue';
-import { useHomeStore } from '~/store/main';
-
-export default defineComponent({
-  setup() {
-    const homeStore = useHomeStore()
-    return {
-      homeStore,
-    }
-  }
-})
-</script>
-*/
 </script>
 
 
