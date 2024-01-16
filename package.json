@@ -9,6 +9,10 @@
     "preview": "nuxt preview",
     "postinstall": "nuxt prepare"
   },
+  "dependencies": {
+    "@pinia/nuxt": "^0.5.1",
+    "pinia": "^2.1.7"
+  },
   "devDependencies": {
     "autoprefixer": "^10.4.16",
     "nuxt": "^3.9.1",
@@ -20,13 +24,15 @@
   },
   "description": "Look at the [Nuxt 3 documentation](https://nuxt.com/docs/getting-started/introduction) to learn more.",
   "version": "0.0.2",
-  "main": "postcss.config.js",  
+  "main": "postcss.config.js",
   "repository": {
     "type": "git",
     "url": "git+https://github.com/DoubleFacess/nuxt3-tailwindcss-starter.git"
   },
   "keywords": [
-    "nuxt3", "nuxt3 starter", "nuxt3 tailwindcss starter"
+    "nuxt3",
+    "nuxt3 starter",
+    "nuxt3 tailwindcss starter"
   ],
   "author": "\"nuxt3-starter\",",
   "license": "ISC",
