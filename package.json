@@ -1,5 +1,5 @@
 {
-  "name": "nuxt-app",
+  "name": "nuxt3-tailwind-starter",
   "private": true,
   "type": "module",
   "scripts": {
@@ -17,5 +17,21 @@
     "tailwindcss": "^3.4.1",
     "vue": "^3.4.10",
     "vue-router": "^4.2.5"
-  }
+  },
+  "description": "Look at the [Nuxt 3 documentation](https://nuxt.com/docs/getting-started/introduction) to learn more.",
+  "version": "0.0.2",
+  "main": "postcss.config.js",  
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/DoubleFacess/nuxt3-tailwindcss-starter.git"
+  },
+  "keywords": [
+    "nuxt3", "nuxt3 starter", "nuxt3 tailwindcss starter"
+  ],
+  "author": "\"nuxt3-starter\",",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/DoubleFacess/nuxt3-tailwindcss-starter/issues"
+  },
+  "homepage": "https://github.com/DoubleFacess/nuxt3-tailwindcss-starter#readme"
 }
