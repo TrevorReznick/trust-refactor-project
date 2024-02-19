@@ -47,15 +47,11 @@ export default defineNuxtConfig({
     },
   },
   css: [
-    '@/assets/css/main.css',
+    '@/assets/css/style.css',
   ],
   modules: [    
     '@pinia/nuxt',
   ],
   postcss: {
-    plugins: {
-      tailwindcss: {},
-      autoprefixer: {},
-    },
   },
 })
