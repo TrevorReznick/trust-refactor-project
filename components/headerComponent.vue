@@ -4,6 +4,7 @@
 <header class="navbar navbar-expand-lg navbar-light bg-light fixed-top" data-scroll-header>
     <!-- Off Canvas Side -->
     <div class="container">
+        <!-- Home -->
         <a class="navbar-brand me-3 me-xl-4" href="real-estate-home.html">
             <img class="d-block" src="../public/img/logo/logo-dark.svg" width="116" alt="Finder">
         </a>
@@ -21,12 +22,9 @@
             href="#signin-modal" 
             data-bs-toggle="modal"
         >
-            
-                <a href="#" @click="logout">
-                    <i class="fi-user me-2"></i>Log out
-                  </a>                  
+            <a href="#" @click="logout">
                 <i class="fi-user me-2"></i>Log out
-            
+            </a>            
         </a>
         <a class="btn btn-primary btn-sm ms-2 order-lg-3" 
             href="real-estate-add-property.html"
@@ -110,7 +108,8 @@
                     </ul>
                 </li>
                 <li class="nav-item d-lg-none"><a class="nav-link" href="#signin-modal" data-bs-toggle="modal"><i class="fi-user me-2"></i>Sign in</a></li>
-            </ul>            
+            </ul>
+            
         </div>
     </div>
     <span class="screen-darken"></span>    
