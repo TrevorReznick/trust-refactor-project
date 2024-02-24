@@ -5,7 +5,7 @@
     <!-- Off Canvas Side -->
     <div class="container">
         <a class="navbar-brand me-3 me-xl-4" href="real-estate-home.html">
-            <img class="d-block" src="img/logo/logo-dark.svg" width="116" alt="Finder">
+            <img class="d-block" src="../public/img/logo/logo-dark.svg" width="116" alt="Finder">
         </a>
         <button class="navbar-toggler ms-auto" 
             type="button" 
@@ -21,12 +21,12 @@
             href="#signin-modal" 
             data-bs-toggle="modal"
         >
-            <div v-if="$auth.loggedIn">
+            
                 <a href="#" @click="logout">
                     <i class="fi-user me-2"></i>Log out
                   </a>                  
-                <!--<i class="fi-user me-2"></i>Log out-->
-            </div>
+                <i class="fi-user me-2"></i>Log out
+            
         </a>
         <a class="btn btn-primary btn-sm ms-2 order-lg-3" 
             href="real-estate-add-property.html"
@@ -113,8 +113,7 @@
             </ul>            
         </div>
     </div>
-    <span class="screen-darken"></span>
-    <sideBar v-if="isMobile" />
+    <span class="screen-darken"></span>    
 </header>    
 </template>
 
@@ -122,9 +121,6 @@
 
 export default {
     name: 'toolbar',
-    components: {
-        sideBar
-    },
     data () {
         return {
             obj: null
