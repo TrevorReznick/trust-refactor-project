@@ -1,6 +1,7 @@
 <template>
   <main class="page-wrapper">
     <headerComponent />
+    <hero />
     <footerComponent />
   </main>
   <!-- Footer-->
