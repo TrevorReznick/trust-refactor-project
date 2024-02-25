@@ -6,7 +6,7 @@
     <div class="container">
         <!-- Home -->
         <a class="navbar-brand me-3 me-xl-4" href="real-estate-home.html">
-            <img class="d-block" src="../public/img/logo/logo-dark.svg" width="116" alt="Finder">
+            <img class="d-block" src="../assets/img/logo/logo-dark.svg" width="116" alt="Finder">
         </a>
         <button class="navbar-toggler ms-auto" 
             type="button" 
