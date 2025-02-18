@@ -5,16 +5,11 @@ export const useHomeStore = defineStore('home', {
     title: 'Benvenuto su Nuxt.js con Tailwind CSS',
     text: 'Benvenuto su Nuxt.js con Tailwind CSS',
     /* is test */
-    bodyClass: '',
-    application: {
-      status: 'idle',
-      code: 0,
-      error: false,
-      invoker: false,
-    }
+    bodyClass: ''
+    
   }),
   actions: {
-    SetClass(bodyClass) {
+    SetClass(bodyClass: any) {
       this.bodyClass = bodyClass  
     }
   }

@@ -1,5 +1,5 @@
 <script setup>
-import { useHomeStore } from '~/store/main'
+import { useHomeStore } from '~/store/home'
 
 const homeStore = useHomeStore()
 </script>
