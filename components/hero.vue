@@ -52,7 +52,7 @@ export default {
       <span class="img-overlay opacity-40"></span>
       <div class="content-overlay" style="max-width: 856px">
         <h1 class="display-5 mb-5 pb-md-3 px-md-3 text-white text-center">
-          Immobiliare di Falco
+          Trust-Refactor real estate
         </h1>
         <!--<searchBar />-->
       </div>
