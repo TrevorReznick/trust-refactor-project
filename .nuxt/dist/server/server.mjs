@@ -1,0 +1,1 @@
+export { default } from "file:///home/default/dev/prod/Di-Falco-Immbobiliare/trust-refactor-estate/node_modules/@nuxt/vite-builder/dist/runtime/vite-node.mjs"
